@@ -7,7 +7,7 @@ public class MyFilter2 implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        System.out.println("Fliter2");
+//        System.out.println("Fliter2");
 
         chain.doFilter(request, response);
     }
